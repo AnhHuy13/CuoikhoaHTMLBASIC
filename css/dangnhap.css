@@ -1,0 +1,132 @@
+body {
+    font-family: "Maven Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.login-page {
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.bambooairways.com/o/bav.web.portal.login.page/assets/sky-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    align-items: center; 
+}
+
+.login-container {
+    max-width: 400px;
+    width: 90%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #004d99;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #555;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #009688;
+    outline: none;
+}
+.password-wrapper {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+    font-size: 18px;
+}
+.options-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.checkbox-group label {
+    display: inline;
+    font-weight: normal;
+    margin-left: 5px;
+    color: #555;
+}
+.forgot-password {
+    color: #004d99;
+    text-decoration: none;
+    font-weight: 500;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #004d99; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    opacity: 0.8;
+}
+.login-button:hover {
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .login-container {
+        max-width: 400px;
+        width: 90%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
