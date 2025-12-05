@@ -51,7 +51,7 @@ def find_and_correct_path(html_file_path):
             print(f"    (File đích thực: {new_abs_path})")
 
         else:
-            print(f"[x] KHÔNG TÌM THẤY file đích '{target_filename}' ở bất kỳ đâu trong {ROOT_DIR}")
+            print(f"[x] KHÔNG TÌM THẤY file đích '{target_filename}' ở bất kỳ đâu tro\ng {ROOT_DIR}")
 
     if changed:
         with open(html_file_path, 'w', encoding='utf-8') as f:
