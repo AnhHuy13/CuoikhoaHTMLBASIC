@@ -50,12 +50,6 @@ NEW_FOOTER_CONTENT = """
             <a href="../Dieukhoan/dieukhoan.html">Điều khoản sử dụng website</a>
         </div>
     </div>
-    <div class="camnangdulich-footer">
-        <h5>Cẩm nang Du lịch</h5>
-        <div class="bambooairways-footer-choice">
-            <a href="../Camnangdulich/tipdulich.html">Chia sẻ Mẹo (Tips Du Lịch)</a>
-        </div>
-    </div>
 </div>
 </div>
 """

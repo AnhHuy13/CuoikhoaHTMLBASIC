@@ -6,11 +6,13 @@
     padding: 0 20px;
     width: 100%;
     box-sizing: border-box;
+    font-weight: 500;
 }
 
 .navbar-left {
     display: flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 .navbar-center {
@@ -26,6 +28,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.signin-option-navbar {
+    color:rgb(10,87,141);
 }
 
 .navbar-right {
@@ -65,8 +71,7 @@
 }
 
 .nav-link:hover, .right-menu a:hover {
-    background-color: #007b5f;
-    color: #fff;
+    color: #007b5f;
 }
 
 /* Navbar Responsive */
