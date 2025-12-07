@@ -83,16 +83,16 @@ def replace_footer(html_file_path, new_content):
         with open(html_file_path, 'w', encoding='utf-8') as f:
             f.write(soup.prettify(formatter=None))
             
-        print(f"[v] Đã thay thế FOOTER và cập nhật {html_file_path}")
+        print(f"✅ Đã thay thế FOOTER và cập nhật {html_file_path}")
     else:
-        print("[-] Không tìm thấy thẻ <footer> trong file này, bỏ qua.")
+        print("❌ Không tìm thấy thẻ <footer> trong file này, bỏ qua.")
 
 if __name__ == "__main__":
     
     html_files = glob(FILE_PATTERN, recursive=True)
     
     if not html_files:
-        print(f"Không tìm thấy file HTML nào trong thư mục {ROOT_DIR} theo pattern '{FILE_PATTERN}'")
+        print(f"❌ Không tìm thấy file HTML nào trong thư mục {ROOT_DIR} theo pattern '{FILE_PATTERN}'")
     else:
         print(f"Tìm thấy {len(html_files)} file HTML để xử lý.")
         for file_path in html_files:

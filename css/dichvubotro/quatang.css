@@ -14,23 +14,10 @@ body {
 /* --- Carousel Banner --- */
 .service-banner-img {
     width: 100%;
-    height: 350px; 
+    height: 400px; 
     object-fit: cover;
-    object-position: center;
     border-bottom: 2px solid #007b5f;
 }
-
-@media (min-width: 992px) {
-    .service-banner-img {
-        height: 400px;
-    }
-}
-@media (max-width: 768px) {
-    .service-banner-img {
-        height: 250px;
-    }
-}
-
 
 /* --- Main Content Layout --- */
 .content-container {

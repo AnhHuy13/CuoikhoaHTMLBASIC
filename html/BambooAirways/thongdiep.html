@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="vi">
   <head>
     <meta charset="utf-8" />
@@ -21,6 +22,7 @@
     />
     <link href="../../css/BambooAirways/thongdiep.css" rel="stylesheet" />
     <link href="../../css/navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/breadcrumb.css" />
   </head>
   <style>
     body {
@@ -33,7 +35,7 @@
     <nav class="navbar bg-light">
       <div class="navbar-container">
         <div class="navbar-left">
-          <a class="navbar-brand" href="../../html/trangchu.html">
+          <a class="navbar-brand" href="../trangchu.html">
             <img
               alt="Logo"
               height="40"
@@ -47,15 +49,13 @@
               <a class="nav-link" href="../Khampha/khampha.html"> Khám phá </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Đặt vé </a>
+              <a class="nav-link" href=""> Đặt vé </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"> Thông tin hành trình </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../BambooClub/GioithieuQuyenloi.html">
-                Bamboo Club
-              </a>
+              <a class="nav-link" href="#"> Bamboo Club </a>
             </li>
           </ul>
         </div>
@@ -77,6 +77,33 @@
             </li>
           </ul>
         </div>
+      </div>
+    </nav>
+    <div
+      class="carousel slide"
+      data-bs-ride="carousel"
+      id="carouselExampleInterval"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img
+            alt="Banner-maybay"
+            class="d-block w-100"
+            src="https://www.bambooairways.com/documents/20122/768330/Banner_2.png/14baa1c6-3b02-aecf-b044-ce312f7a1182?t=1689611909463"
+          />
+        </div>
+      </div>
+    </div>
+    <nav class="breadcrumb-nav container-fluid" aria-label="breadcrumb">
+      <div class="container breadcrumb-container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="../trangchu.html">Trang chủ</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Thông điệp Bamboo Airways
+          </li>
+        </ol>
       </div>
     </nav>
   </body>
