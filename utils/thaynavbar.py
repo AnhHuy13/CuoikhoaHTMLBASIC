@@ -23,23 +23,20 @@ NEW_NAVBAR_HTML = """
               <a class="nav-link" href="../Khampha/khampha.html"> Khám phá </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=""> Đặt vé </a>
+              <a class="nav-link" href="./Mangduongbay.html"> Thông tin hành trình </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Thông tin hành trình </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Bamboo Club </a>
+              <a class="nav-link" href="./BambooClub/GioithieuQuyenloi.html"> Bamboo Club </a>
             </li>
           </ul>
         </div>
         <div class="navbar-right">
           <ul class="navbar-nav right-menu">
             <li class="signin-li">
-              <a class="signin-option-navbar" href="#"> Đăng nhập </a>
+              <a class="signin-option-navbar" href="./dangnhap.html"> Đăng nhập </a>
             </li>
             <li>
-              <a class="signup-option-navbar" href="#"> Đăng ký </a>
+              <a class="signup-option-navbar" href="./dangky.html"> Đăng ký </a>
             </li>
             <li>
               <img
